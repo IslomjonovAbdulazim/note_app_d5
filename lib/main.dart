@@ -5,7 +5,7 @@ import 'package:note_app_d5/pages/home_page.dart';
 void main() {
   runApp(
     DevicePreview(
-      enabled: true,
+      enabled: false,
       builder: (context) => MyApp(),
     ),
   );
